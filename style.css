@@ -1,0 +1,344 @@
+*{
+    padding : 0px;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    /* background-color: rgb(232, 227, 227); */
+}
+.container-size{
+    max-width: 1200px;
+    margin: auto;
+}
+.logo-r{
+    color: #FD6E0A ;
+    display: inline-block;
+    transform: rotate(35deg) ;
+    position: relative;
+    /* top: -4px; */
+    text-shadow: 2px 2px 8px black;
+    transition: .3s;
+}
+
+.logo-r:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+nav{
+    /* border: .1px solid ; */
+    display: flex;
+    justify-content: space-between; 
+    padding: 8px 12px;
+    align-items: center;
+}
+
+.nav-div-left{
+    text-shadow: 0px 0px 20px black;
+    font-family:"Poppins", sans-serif;
+    align-items: center;
+}
+
+.nav-div-right{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    /* font-family: cursive; */
+    border:none;
+    cursor: pointer;
+}
+.outer-btn{
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FD6E0A;
+    /* font-family: cursive; */
+    border:none;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+    /* navbar end */
+.hero-parent-root{
+    background-color: rgb(241, 231, 212);
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    gap: 80px;
+    background-color: rgb(241, 231, 212);
+}
+
+/* .profile-pic{
+    width: 35vw;
+    max-width: 420px;
+    min-width: 280px;
+    height: auto;
+} */
+.hero-left h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.hero-heading-paragraph{
+    font-size: 37px;
+    font-weight: 600;
+    color: rgb(118, 106, 106);
+}
+
+.hero-body-paragraph{
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.hero-left{
+    flex: 1;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.hero-left-btn-parent{
+    display: flex;
+    margin-top: 8px;
+    gap: 12px;
+}
+/* About me css */
+.about-me-parent{
+    background-color: rgb(241, 231, 212);
+    margin: 70px auto;
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-paragraph{
+    margin: 20px 0;
+    
+}
+
+
+.about-parent-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-parent-box .box{
+    background-color: rgb(225, 211, 185);
+    padding: 8px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+/* what I do section  */
+
+.what-i-do-parent-container{
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1300px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.what-i-do-card-container .what-i-do{
+    box-shadow: 2px 2px 8px black;
+    text-align: left;
+    margin: 8px;
+    padding: 10px;
+    
+}
+
+.what-i-do-parent-container  p{
+    color: gray;
+    font-size: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+
+/* Summary of my resume css */
+
+
+.summary-resume-parent-container{
+    max-width: 1100px;
+    margin: 80px auto;
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 20px;
+    box-shadow: 0px 0px .945px black;
+}
+.summary-resume-parent-container h1{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.resume-column{
+    flex: 1;
+}
+.summary-resume-box{
+    padding: 25px 0;
+    border-bottom: 1px solid #d8d8d8;
+
+}
+
+.resume-column h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.summary-resume-box p{
+    color: gray;
+    line-height: 1.8;
+    margin-top: 18px;
+}
+
+.summary-resume-box h2{
+    margin-bottom: 10px;
+}
+
+.summary-resume-box h3{
+    margin-bottom: 18px;
+    color: #666;
+}
+
+.common-btn{
+    display: block;
+    margin: 60px auto;
+}
+/* My amazing works  */
+
+
+.my-amazing-parent{
+    text-align: center;
+    max-width: 1140px;
+    margin: 80px auto;
+}
+
+.gallary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    gap: 12px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+
+.gallary img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.box-1{    
+    grid-area: one;
+}
+
+.box-2{    
+    grid-area: two;
+}
+
+.box-3{    
+    grid-area: three;
+}
+
+.box-4{    
+    grid-area: four;
+}
+
+.box-5{    
+    grid-area: five;
+}
+
+.box-6{    
+    grid-area: six;
+}
+
+/* foooter section  */
+
+footer{
+    
+    margin-top: 70px;
+    background-color: rgb(245, 243, 239);
+    padding: 80px 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+footer p{
+    max-width: 420px;
+    line-height: 28px;
+}
+footer form input,
+footer form textarea{
+    width: 100%;
+    max-width: 460px;
+    border: none;
+    background-color: white;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+footer form textarea{
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 460px;
+    resize: vertical;
+}
+footer h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+footer img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
